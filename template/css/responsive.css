@@ -1,0 +1,101 @@
+@media (min-width: 375px) and (max-width: 667px) {
+	.my-table.table-bordered {
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	.table-items {
+		border: 5px ridge #DDDDDD;
+		overflow-x:auto;
+	}
+
+	.my-table.table-bordered th {
+		font-weight: bold;
+		background-color: #f2f2f2;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.my-table.table-bordered {
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	.my-table.table-bordered th, .my-table.table-bordered td {
+		border: 5px ridge #DDDDDD;
+		padding: 1px;
+	}
+
+	.my-table.table-bordered th {
+		font-weight: bold;
+		background-color: #f2f2f2;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.my-table.table-bordered {
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	.my-table.table-bordered th, .my-table.table-bordered td {
+		border: 5px ridge #DDDDDD;
+		padding: 2px;
+	}
+
+	.my-table.table-bordered th {
+		font-weight: bold;
+		background-color: #f2f2f2;
+	}
+}
+
+	@media (min-width: 768px) and (max-width: 991.98px) {
+	.my-table.table-bordered {
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	.my-table.table-bordered th, .my-table.table-bordered td {
+		border: 5px ridge #DDDDDD;
+		padding: 4px;
+	}
+
+	.my-table.table-bordered th {
+		font-weight: bold;
+		background-color: #f2f2f2;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.my-table.table-bordered {
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	.my-table.table-bordered th, .my-table.table-bordered td {
+		border: 5px ridge #DDDDDD;
+		padding: 3px;
+	}
+
+	.my-table.table-bordered th {
+		font-weight: bold;
+		background-color: #f2f2f2;
+	}
+}
+
+@media (min-width: 1200px) {
+	.my-table.table-bordered {
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	.my-table.table-bordered th, .my-table.table-bordered td {
+		border: 5px ridge #DDDDDD;
+		padding: 9px;
+	}
+
+	.my-table.table-bordered th {
+		font-weight: bold;
+		background-color: #f2f2f2;
+	}
+}
